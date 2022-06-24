@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
   <identifier>RowsApparel</identifier>
-  <version>1.2</version>
+  <version>1.2.1</version>
   <suggests>
     <li>2590363477</li>  <!-- Call of Duty: Zombies -->
   </suggests>
