@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<ThingDef Name="RowsApparelWings" Abstract="True" ParentName="ApparelNoQualityBase">
+		<comps>
+			<li Class="CompProperties_Reloadable" MayRequire="Ludeon.RimWorld.Royalty">
+				<hotKey>Misc4</hotKey>
+				<chargeNoun>fly</chargeNoun>
+			</li>
+    	</comps>
+		<techLevel>Medieval</techLevel>
+		<equippedStatOffsets>
+			<SocialImpact>0.5</SocialImpact>
+			<MoveSpeed>0.1</MoveSpeed>
+		</equippedStatOffsets>
+		<recipeMaker>
+			<researchPrerequisite>ComplexClothing</researchPrerequisite>
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+			</recipeUsers>
+			<useIngredientsForColor>false</useIngredientsForColor>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>10000</WorkToMake>
+			<MaxHitPoints>450</MaxHitPoints>
+			<Mass>3.1</Mass>
+			<Beauty>5</Beauty>
+			<EquipDelay>1.3</EquipDelay>
+		</statBases>
+		<thingCategories>
+				<li>ApparelUtility</li>
+		</thingCategories>
+    	<verbs>
+			<li MayRequire="Ludeon.RimWorld.Royalty">
+				<verbClass>Verb_jump</verbClass>
+				<label>Fly to</label>
+				<violent>false</violent>
+				<hasStandardCommand>true</hasStandardCommand>
+				<onlyManualCast>false</onlyManualCast>
+				<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+				<warmupTime>0.75</warmupTime>
+				<requireLineOfSight>true</requireLineOfSight>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+					<canTargetPawns>true</canTargetPawns>
+					<canTargetBuildings>false</canTargetBuildings>
+				</targetParams>
+			</li>
+		</verbs>
+		<apparel>
+			
+				<bodyPartGroups>
+				<li>Shoulders</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Belt</li>
+			</layers>
+			<careIfDamaged>false</careIfDamaged>
+			<wearPerDay>-10</wearPerDay>
+			<tags>
+				<li MayRequire="Ludeon.RimWorld.Royalty">PackJump</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+</Defs>
