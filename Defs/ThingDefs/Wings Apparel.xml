@@ -31,8 +31,27 @@
 			<ammoCountPerCharge>1</ammoCountPerCharge>
 			<maxCharges>3</maxCharges>
 			<ammoDef>Gold</ammoDef>
+			<hotKey>Misc4</hotKey>
+			<chargeNoun>fly</chargeNoun>
 		</li>
     </comps>
+    <verbs>
+		<li MayRequire="Ludeon.RimWorld.Royalty">
+			<verbClass>Verb_jump</verbClass>
+			<label>Fly to</label>
+			<violent>false</violent>
+			<hasStandardCommand>true</hasStandardCommand>
+			<onlyManualCast>false</onlyManualCast>
+			<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+			<warmupTime>0.75</warmupTime>
+			<requireLineOfSight>true</requireLineOfSight>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+				<canTargetPawns>true</canTargetPawns>
+				<canTargetBuildings>false</canTargetBuildings>
+			</targetParams>
+		</li>
+	</verbs>
 	<statBases>
 		<StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
 		<StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
@@ -74,8 +93,27 @@
 			<ammoCountPerCharge>1</ammoCountPerCharge>
 			<maxCharges>6</maxCharges>
 			<ammoDef>Gold</ammoDef>
+			<hotKey>Misc4</hotKey>
+			<chargeNoun>fly</chargeNoun>
 		</li>
     </comps>
+    <verbs>
+		<li MayRequire="Ludeon.RimWorld.Royalty">
+			<verbClass>Verb_jump</verbClass>
+			<label>Fly to</label>
+			<violent>false</violent>
+			<hasStandardCommand>true</hasStandardCommand>
+			<onlyManualCast>false</onlyManualCast>
+			<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+			<warmupTime>0.75</warmupTime>
+			<requireLineOfSight>true</requireLineOfSight>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+				<canTargetPawns>true</canTargetPawns>
+				<canTargetBuildings>false</canTargetBuildings>
+			</targetParams>
+		</li>
+	</verbs>
 	<statBases>
 		<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
 		<StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
@@ -117,8 +155,27 @@
 			<ammoCountPerCharge>1</ammoCountPerCharge>
 			<maxCharges>6</maxCharges>
 			<ammoDef>Gold</ammoDef>
+			<hotKey>Misc4</hotKey>
+			<chargeNoun>fly</chargeNoun>
 		</li>
     </comps>
+    <verbs>
+		<li MayRequire="Ludeon.RimWorld.Royalty">
+			<verbClass>Verb_jump</verbClass>
+			<label>Fly to</label>
+			<violent>false</violent>
+			<hasStandardCommand>true</hasStandardCommand>
+			<onlyManualCast>false</onlyManualCast>
+			<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+			<warmupTime>0.75</warmupTime>
+			<requireLineOfSight>true</requireLineOfSight>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+				<canTargetPawns>true</canTargetPawns>
+				<canTargetBuildings>false</canTargetBuildings>
+			</targetParams>
+		</li>
+	</verbs>
 	<statBases>
 		<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
 		<StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>

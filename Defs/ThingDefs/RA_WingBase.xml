@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 	<ThingDef Name="RowsApparelWings" Abstract="True" ParentName="ApparelNoQualityBase">
-		<comps>
-			<li Class="CompProperties_Reloadable" MayRequire="Ludeon.RimWorld.Royalty">
-				<hotKey>Misc4</hotKey>
-				<chargeNoun>fly</chargeNoun>
-			</li>
-    	</comps>
 		<techLevel>Medieval</techLevel>
 		<equippedStatOffsets>
 			<SocialImpact>0.5</SocialImpact>
@@ -32,23 +26,6 @@
 		<thingCategories>
 				<li>ApparelUtility</li>
 		</thingCategories>
-    	<verbs>
-			<li MayRequire="Ludeon.RimWorld.Royalty">
-				<verbClass>Verb_jump</verbClass>
-				<label>Fly to</label>
-				<violent>false</violent>
-				<hasStandardCommand>true</hasStandardCommand>
-				<onlyManualCast>false</onlyManualCast>
-				<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
-				<warmupTime>0.75</warmupTime>
-				<requireLineOfSight>true</requireLineOfSight>
-				<targetParams>
-					<canTargetLocations>true</canTargetLocations>
-					<canTargetPawns>true</canTargetPawns>
-					<canTargetBuildings>false</canTargetBuildings>
-				</targetParams>
-			</li>
-		</verbs>
 		<apparel>
 			
 				<bodyPartGroups>
