@@ -27,8 +27,7 @@
 				<li>ApparelUtility</li>
 		</thingCategories>
 		<apparel>
-			
-				<bodyPartGroups>
+			<bodyPartGroups>
 				<li>Shoulders</li>
 			</bodyPartGroups>
 			<layers>
