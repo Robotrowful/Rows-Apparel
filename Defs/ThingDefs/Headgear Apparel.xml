@@ -160,7 +160,7 @@
 	<apparel>
 		<wornGraphicPath>Things/RowsApparel/Hats/Kitsune</wornGraphicPath>
 		<useWornGraphicMask>true</useWornGraphicMask>
-		<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+		<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace> <!--Obsolete in 1.5+-->
 		<bodyPartGroups>
 			<li>FullHead</li>
 		</bodyPartGroups>
@@ -198,7 +198,7 @@
 	<apparel>
 		<wornGraphicPath>Things/RowsApparel/Hats/Amaterasu</wornGraphicPath>
 		<useWornGraphicMask>true</useWornGraphicMask>
-		<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+		<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace> <!--Obsolete in 1.5+-->
 		<bodyPartGroups>
 			<li>FullHead</li>
 		</bodyPartGroups>
